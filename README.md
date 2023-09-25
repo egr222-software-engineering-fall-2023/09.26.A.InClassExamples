@@ -1,3 +1,3 @@
-# 09.19.A.InClassExamples
+# 09.26.A.InClassExamples
 
-In class examples for section "A" for the week of 09.19 - 09.21.2023
+In class examples for section "A" for the week of 09.26 - 09.28.2023
