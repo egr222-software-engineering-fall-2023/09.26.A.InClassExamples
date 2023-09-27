@@ -15,7 +15,12 @@ public class DigitSum {
         if (num < 0) num *= -1; //make it a positive integer
         int sum = 0;    // initialize sum at zero (the default prior to summing any digits)
 
-       // do stuff here to figure out the sum
+        while (num > 0) {
+            int digit = num % 10;   // get the rightmost digit
+            sum += digit;           // add it to the sum
+            num /= 10;              // remove the rightmost digit
+        }
+
 
         return sum;
     }
